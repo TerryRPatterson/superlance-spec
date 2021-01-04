@@ -20,10 +20,7 @@ BuildRequires:  python3dist(sphinx)
 %description
 superlance README Superlance is a package of plugin utilities for monitoring
 and controlling processes that run under supervisor <>_.Please see
-docs/index.rst for complete documentation. 1.0.0 (2016-10-02) - Support for
-Python 2.5 has been dropped. On Python 2, Superlance now requires Python 2.6 or
-later.- Support for Python 3 has been added. On Python 3, Superlance requires
-Python 3.2 or...
+docs/index.rst for complete documentation.
 
 %package -n     python3-%{pypi_name}
 Summary:        %{summary}
@@ -33,10 +30,7 @@ Requires:       python3dist(supervisor)
 %description -n python3-%{pypi_name}
 superlance README Superlance is a package of plugin utilities for monitoring
 and controlling processes that run under supervisor <>_.Please see
-docs/index.rst for complete documentation. 1.0.0 (2016-10-02) - Support for
-Python 2.5 has been dropped. On Python 2, Superlance now requires Python 2.6 or
-later.- Support for Python 3 has been added. On Python 3, Superlance requires
-Python 3.2 or...
+docs/index.rst for complete documentation.
 
 %package -n python-%{pypi_name}-doc
 Summary:        superlance documentation
@@ -80,5 +74,7 @@ rm -rf html/.{doctrees,buildinfo}
 %license LICENSE.txt
 
 %changelog
-* Mon Jan 04 2021 Terry Patterson <tpatterson@datatrac.com> - 1.0.0-1
+* Mon Jan 04 2021 Terry Patterson <terryp@wegrok.net> - 1.0.0-2
+- Improve descriptions.
+* Mon Jan 04 2021 Terry Patterson <terryp@wegrok.net> - 1.0.0-1
 - Initial package.
