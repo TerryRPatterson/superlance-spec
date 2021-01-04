@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.0.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        superlance plugins for supervisord
 
 License:        BSD-derived (http://www.repoze.org/LICENSE.txt)
